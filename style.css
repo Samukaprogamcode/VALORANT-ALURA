@@ -1,0 +1,61 @@
+body {
+    background-color: red;
+}
+
+header {
+    text-align: center;
+    font-size: 24px;
+    background-color: black;
+    color: red;
+    border: 10px white solid;
+    border-radius: 30px;
+    margin-bottom: 80px;
+}
+
+button {
+    border: 3px white solid;
+    border-radius: 6px;
+    font-size: 20px;
+    background-color: black;
+    color: red;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: grey;
+    color: white;
+}
+
+.logo {
+    background-image: url(img/LOGO.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imagem {
+    background-image: url(VALORANT.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.passo {
+    display: none;
+    color: white;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    max-width: 98%;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+img {
+    max-width: 90%;
+    border: solid 2px white;
+}
